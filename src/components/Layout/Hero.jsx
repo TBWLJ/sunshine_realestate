@@ -12,7 +12,7 @@ const Hero = () => {
           <h2 className="font-Poppins text-3xl font-semibold mb-4 ">
             Time to Meet Your
           </h2>
-          <h1 className="text-5xl mb-4 text-green font-semibold tracking-widest font-Poppins">
+          <h1 className="text-5xl mb-4 text-blue font-semibold tracking-widest font-Poppins">
             New Home
           </h1>
           <p className="font-Poppins text-ash mb-6">
@@ -20,10 +20,10 @@ const Hero = () => {
             Where Finding Your Ideal Home Is Simple.
           </p>
           <div className="flex items-center mb-10">
-            <button className=" bg-green text-white font-bold text-xs p-3 px-7 rounded-lg mr-6 shadow-lg">
+            <button className=" bg-blue text-white font-bold text-xs p-3 px-7 rounded-lg mr-6 shadow-lg">
               Learn More
             </button>
-            <button className=" bg-green text-white font-bold text-xs p-3  rounded-full shadow-lg">
+            <button className=" bg-blue text-white font-bold text-xs p-3  rounded-full shadow-lg">
               <BsFillPlayFill className="text-lg" />
             </button>
           </div>

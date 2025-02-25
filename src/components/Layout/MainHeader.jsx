@@ -44,14 +44,14 @@ const MainHeader = () => {
     <div className="w-11/12 max-w-2xl mt-4 lg:hidden">
       <ul className=" flex-col px-6 text-ash  ">
         <li className="py-3">
-          <NavLink to="/home" activeClassName="text-green" onClick={menuHandler}>
+          <NavLink to="/home" activeClassName="text-blue" onClick={menuHandler}>
             Home
           </NavLink>
         </li>
         <li className="py-3">
           <NavLink
             to="/listings"
-            activeClassName="text-green"
+            activeClassName="text-blue"
             onClick={menuHandler}
           >
             Properties
@@ -60,27 +60,27 @@ const MainHeader = () => {
         <li className="py-3">
           <NavLink
             to="/agent"
-            activeClassName="text-green"
+            activeClassName="text-blue"
             onClick={menuHandler}
           >
             Agents
           </NavLink>
         </li>
         <li className="py-3">
-          <NavLink to="/blog" activeClassName="text-green" onClick={menuHandler}>
+          <NavLink to="/blog" activeClassName="text-blue" onClick={menuHandler}>
             Blog
           </NavLink>
         </li>
       </ul>
       <div className="flex justify-between py-3 pl-6">
         <button
-          className="text-green font-medium text-base pr-5"
+          className="text-blue font-medium text-base pr-5"
           onClick={isAuthenticated ? handleLogout : menuHandler}
         >
           {!isAuthenticated ? <Link to="/login">{btnContent}</Link> : "Logout"}
         </button>
         <button
-          className="flex items-center ml-6 bg-green text-white font-bold text-xs p-3 px-3 rounded-lg shadow-md "
+          className="flex items-center ml-6 bg-blue text-white font-bold text-xs p-3 px-3 rounded-lg shadow-md "
           onClick={menuHandler}
         >
           {" "}
@@ -105,33 +105,33 @@ const MainHeader = () => {
         </div>
         <ul className=" hidden lg:flex px-6 text-ash  ">
           <li>
-            <NavLink to="/home" activeClassName="text-green" className="px-4">
+            <NavLink to="/home" activeClassName="text-blue" className="px-4">
               Home
             </NavLink>
           </li>
           <li>
             <NavLink
               to="/listings"
-              activeClassName="text-green"
+              activeClassName="text-blue"
               className="px-4"
             >
               Properties
             </NavLink>
           </li>
           <li>
-            <NavLink to="/agent" activeClassName="text-green" className="px-4">
+            <NavLink to="/agent" activeClassName="text-blue" className="px-4">
               Agents
             </NavLink>
           </li>
           <li>
-            <NavLink to="/blog" activeClassName="text-green" className="px-4 ">
+            <NavLink to="/blog" activeClassName="text-blue" className="px-4 ">
               Blog
             </NavLink>
           </li>
         </ul>
         <div className="pl-18 hidden lg:flex ">
           <button
-            className="text-green font-medium text-base pr-5"
+            className="text-blue font-medium text-base pr-5"
             onClick={isAuthenticated ? handleLogout : () => null}
           >
             {!isAuthenticated ? (
@@ -140,7 +140,7 @@ const MainHeader = () => {
               "Logout"
             )}
           </button>
-          <button className="flex items-center bg-green text-white border-2 border-green font-bold text-xs py-2 px-4 hover:text-green hover:bg-white  hover:outline-green rounded-lg shadow-md ">
+          <button className="flex items-center bg-blue text-white border-2 border-green font-bold text-xs py-2 px-4 hover:text-blue hover:bg-white  hover:outline-blue rounded-lg shadow-md ">
             {isAuthenticated && (
               <div className="mr-3 ">
                 <FaUser />
