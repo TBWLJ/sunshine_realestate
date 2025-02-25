@@ -21,8 +21,7 @@ const OurService = () => {
               Your Comfort Is Our Priority
             </h1>
             <p className="font-Poppins text-ash mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. optio
-              laborum sunt molestias necessitatibus!
+              Guiding You to the Perfect Property Every Step of the Way
             </p>
             <div className="flex mt-2">
               <div className=" pr-5">

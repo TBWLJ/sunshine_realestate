@@ -37,8 +37,8 @@ const Properties = () => {
             Our Most Popular <span className="text-blue">Trending</span>
           </h1>
           <p className="text-center text-ash">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-            facilis libero, esse recusandae nam veniam aut accusamus.
+            The Most Comprehensive Property Listings—Now at Your Fingertips.
+            Trusted Real Estate Experts Helping You Every Step of the Way.
           </p>
         </div>
         <ul className="flex justify-center flex-col lg:flex-row lg:justify-between ">

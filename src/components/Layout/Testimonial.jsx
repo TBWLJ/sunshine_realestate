@@ -45,8 +45,7 @@ const Testimonial = () => {
               What Our Client <span className="text-blue">Say</span>
             </h1>
             <p className="text-left text-ash">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-              amet!
+              We’re proud of the relationships we’ve built with our clients. Here’s what some of them have to say about their experience working with us.
             </p>
           </div>
         </div>

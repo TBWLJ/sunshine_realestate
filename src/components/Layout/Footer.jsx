@@ -50,8 +50,7 @@ const Footer = () => {
               <img src={Logo} alt="macho-logo" className="w-full" />
             </div>
             <p className="font-Poppins text-lg text-white my-4 text-center lg:text-left">
-              Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
-              Officiis, officia.
+              Your go to for properties <br /> selling and  buying.
             </p>
             <div className="flex">
               {socialIcons.map((item) => (

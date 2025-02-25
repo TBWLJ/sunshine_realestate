@@ -11,19 +11,19 @@ const Purpose = () => {
       id: "p1",
       icon: <HiOutlineHome />,
       title: "Buy A Home",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Find Your Perfect Home Today.",
     },
     {
       id: "p2",
       icon: <FiKey />,
       title: "Rent A Home",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Your Next Home Is Just a Click Away.",
     },
     {
       id: "p3",
       icon: <FaHandshake />,
       title: "Sell A Home",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Browse through thousands of listing including houses.",
     },
   ];
 
@@ -47,8 +47,8 @@ const Purpose = () => {
             Our Main <span className="text-blue">Focus</span>
           </h1>
           <p className="text-center text-ash">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-            facilis libero, esse recusandae nam veniam aut accusamus.
+            Provide properties on-the-go, anytime, anywhere
+            also save time and effort with our streamlined search process.
           </p>
         </div>
         <ul className="flex flex-col lg:flex-row my-6">{mappedList}</ul>

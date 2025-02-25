@@ -5,23 +5,18 @@ import FAQsItem from "../Data/FAQsItem";
 const faqsData = [
   {
     id: "q1",
-    que: "Lorem ipsum dolor sit amet consectetur?",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui quaerat consequuntur, nostrum placeat quisquam. Nulla pariatur at voluptatem doloribus quisquam, perspiciatis, ab animi soluta nihil!",
+    que: "Where is Kwolity Groups",
+    ans: "Kwolity Group is an Nigerian Real Estate company located in the northern part of Ogbomoso. Isale general",
   },
   {
     id: "q2",
-    que: "Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetur?",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui quaerat consequuntur, nostrum placeat quisquam. Nulla pariatur at voluptatem doloribus quisquam, perspiciatis, ab animi soluta nihil!",
+    que: "How can I meet Kwolity Group for consultation",
+    ans: "At Kwolity Groups, We are open at our office 9am - 5pm daily. You can also get to us via all our social media platforms. We offer 24hours services on all our platforms.",
   },
   {
     id: "q3",
-    que: "Lorem ipsum dolor sit ?",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui quaerat consequuntur, nostrum placeat quisquam. Nulla pariatur at voluptatem doloribus quisquam, perspiciatis, ab animi soluta nihil!",
-  },
-  {
-    id: "q4",
-    que: "Lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet?",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur qui quaerat consequuntur, nostrum placeat quisquam. Nulla pariatur at voluptatem doloribus quisquam, perspiciatis, ab animi soluta nihil!",
+    que: "If I will need to purchase a land, do you have the service?",
+    ans: "At Kwolity Groups, We are specialized in selling of properties including lands, houses and a host of others",
   },
 ];
 
